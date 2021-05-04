@@ -1,0 +1,319 @@
+@import url('http://fonts.cdnfonts.com/css/bellerose');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.nav-bar {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+    z-index: 5;
+}
+
+.content {
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.nav-bar .content {
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-bar .logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 500px;
+    width: 500px;
+}
+
+.nav-bar .navul {
+    display: inline-flex;
+}
+
+.navul li {
+    list-style: none;
+}
+
+.navul li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.alpha1 {
+    position: fixed;
+    background: #000000;
+    width: auto;
+    height: 90px;
+    display: flex;
+    padding: 10px 50px;
+    margin: auto;
+    align-items: center;
+}
+
+.first-ct .col-md-7 {
+    padding-top: 80px;
+}
+
+.aplha1 .logo {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+.logo {}
+
+.logo img {
+    height: 20%;
+    width: 20%;
+    margin-left: 20px;
+}
+
+.alpha1 .nav-ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav-ul li a {
+    font-size: 20px;
+    color: white;
+    margin: 0px 10px;
+}
+
+.alpha1 a {
+    text-decoration: none;
+}
+
+.nav-ul .logo {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+
+/*end of nav css*/
+
+.col-md-4 img {
+    height: 400px;
+    width: 450px;
+    padding-left: 150px;
+}
+
+.col-md-6 img {
+    height: 400px;
+    width: 450px;
+    padding-left: 30px;
+}
+
+.col-md-6 p {
+    padding-left: 27px;
+}
+
+.col-md-7 h2 {
+    font-weight: 600;
+    color: white;
+    font-family: bellerose, sans-serif;
+    line-height: 200%;
+    padding-top: 120px;
+}
+
+.col-md-5 img {
+    width: 500px;
+    height: 500px;
+}
+
+
+.side_1 img{
+    
+    height:50px;
+    width:100%;
+}
+.clients_container img { width:100%;
+
+}
+
+
+#take {
+    padding-left: 56px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    line-height: 20px;
+}
+
+.col-2 a {
+    text-decoration: none;
+}
+
+.col-md-2 a:hover {
+    text-decoration: underline;
+    font-family: cursive;
+    color: rgb(112, 218, 126);
+}
+
+
+.black-section {
+    background: #010202;
+}
+
+.black-section * {
+    color: white;
+}
+
+.black-section h2 {
+    padding-top: 30px;
+}
+
+.col img {
+    height: 50vh;
+    padding-bottom: 10px;
+}
+
+.col-md-3 img {
+    padding: 15px 0;
+}
+
+.col a {
+    text-decoration: none;
+    text-transform: initial;
+}
+
+.col a:hover {
+    color: rgb(112, 218, 126);
+    text-decoration: underline;
+}
+
+.col-10 p {
+    font-size: 15px
+}
+
+.col-2 a {
+    font-size: 15px;
+}
+
+.col-2 a:hover {
+    color: rgb(88, 143, 88);
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+#colmiddle h2 p {
+    text-justify: inter-word;
+    color:white;
+}
+.contct{
+    
+    width:166px;
+    height: 40px;
+    left:610px;
+    
+    font-weight:500px;
+    color:white;
+}
+.contact {
+    width:350px;
+    height: 70px;
+    left:610px;
+    font-family:bellerose;
+    font-weight:500;
+    font-size:20px;
+    text-align:center;
+    text-decoration: none;
+    background:white;
+    border: solid 0.2px black;
+    padding:10px;
+    border-radius: 4px;
+    color:black;
+}
+.clients_container p{
+    
+    
+  
+}
+
+
+/* css device screen Responsiveness*/
+
+@media screen and (min-width:320px) {
+    .col-md-5 img {
+        width: 320px;
+        height: 400px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:320px) {
+    .input1 #success {
+        padding: 7px;
+    }
+}
+
+@media screen and (min-width:320px) {
+    .input1 #email {
+        width: 63%;
+        padding: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width:360px) {
+    .input1 #email {
+        width: 63%;
+    }
+}
+
+@media screen and (min-width:320px) {
+    .col-md-7 p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:360px) {
+    .col-md-7 p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:375px) {
+    .col-md-7 p {
+        font-size: 12px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width:360px) {
+    .col-md-5 img {
+        width: 320px;
+        height: 400px;
+        justify-content: center;
+    }
+}
+
+@media screen and(min-width:360) {
+    .col-10 p {
+        font-size: 5px;
+        padding: 5px;
+    }
+}
